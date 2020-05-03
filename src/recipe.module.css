@@ -1,0 +1,35 @@
+.recipe
+{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    margin: 20px auto;
+    max-width: 40%;
+
+}
+
+.recipe p
+{
+    font-size: 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: rgb(169, 173, 131);
+    padding: 10px;
+}
+
+.image
+{
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+}
+
+@media only screen and (max-width: 800px) {
+    .recipe {
+        max-width: 90%;
+    }
+  }
